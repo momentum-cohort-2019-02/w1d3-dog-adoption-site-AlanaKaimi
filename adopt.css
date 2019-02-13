@@ -21,20 +21,23 @@ nav {
     padding: 20px;
 }
 .filter-box {
-    background-color: lightgray; 
+    background-color: #f0edee; 
     margin: 2px;
     padding: 20px;
-    border-radius: 15px;
-
+    border-radius: 10px;
+    display: flex;
 }
+.filter-opt {
+    margin: 2px;
+    padding: 10px;
+}
+
 
 .dog-thumb {
-    width: 250px;
-    
-
+    width: 250px;  
 }
 
-.dog-info {
+.dog-tag {
 
 }
 
