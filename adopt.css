@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #033a78;
+    color: #ffffff;
+    margin: 2px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav {
+
+}
+
+.info {
+    margin: 2px;
+    padding: 20px;
+}
+.filter-box {
+    background-color: lightgray; 
+    margin: 2px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.dog-thumb {
+    width: 250px;
+    
+
+}
+
+.dog-info {
+
+}
+
+footer {
+
+}
