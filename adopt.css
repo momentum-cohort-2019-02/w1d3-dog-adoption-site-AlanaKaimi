@@ -4,9 +4,10 @@
     padding: 0;
 }
 
-/* main {
-    font-family: 
-} */
+body {
+    font-family: 'Open Sans';
+    max-width: 1170px;
+}
 
 header {
     background-color: #033a78;
@@ -45,6 +46,7 @@ nav {
     margin: 5px;
     display: block;
     max-width: 375px;
+    font-family: 'Oswald';
 }
 
 .dog-thumb {
@@ -55,6 +57,8 @@ nav {
     background-color: #8dddf1;
     padding: 2px;
     border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: .9rem;
     list-style: none;
     display: inline;
     flex-wrap: flex;
@@ -63,4 +67,14 @@ nav {
 
 footer {
 
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%
+}
+footer img {
+    max-width: 400px;
+    color: purple;
 }
