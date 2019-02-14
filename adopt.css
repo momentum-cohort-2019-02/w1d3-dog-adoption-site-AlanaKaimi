@@ -7,6 +7,7 @@
 body {
     font-family: 'Open Sans';
     max-width: 1170px;
+    margin: 0 auto;
 }
 
 header {
@@ -65,16 +66,32 @@ nav {
     line-height: 2rem;
 }
 
-footer {
-
+.footer {
+    display: flex;
+}
+.foot {
+    flex: 1 1 33%;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 200px;
+    color: white;
 }
 
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%
+.donate {
+    background: 
+    linear-gradient(rgba(121, 24, 186, 0.45), rgba(121, 24, 186, 0.45)),
+    url(starter_files/images/donate.jpg), top center/cover;
 }
-footer img {
-    max-width: 400px;
-    color: purple;
+.volunteer {
+    background: linear-gradient(rgba(121, 24, 186, 0.45), rgba(121, 24, 186, 0.45)),
+    url(starter_files/images/volunteer.jpg), center/cover;
 }
+.location {
+    background: linear-gradient(rgba(121, 24, 186, 0.45), rgba( 121, 24, 186, 0.45)),
+    url(starter_files/images/location.png), center/cover;
+}
+
+
