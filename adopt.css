@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+/* main {
+    font-family: 
+} */
+
 header {
     background-color: #033a78;
     color: #ffffff;
@@ -25,20 +29,36 @@ nav {
     margin: 2px;
     padding: 20px;
     border-radius: 10px;
+}
+
+.flex {
     display: flex;
+    flex-wrap: wrap;
 }
 .filter-opt {
-    margin: 2px;
-    padding: 10px;
+    
+    padding: 5px;
+    width: 25%;
+    display: block;
+}
+.dog {
+    margin: 5px;
+    display: block;
+    max-width: 375px;
 }
 
-
 .dog-thumb {
-    width: 250px;  
+    width: 375px;  
 }
 
 .dog-tag {
-
+    background-color: #8dddf1;
+    padding: 2px;
+    border-radius: 10px;
+    list-style: none;
+    display: inline;
+    flex-wrap: flex;
+    line-height: 2rem;
 }
 
 footer {

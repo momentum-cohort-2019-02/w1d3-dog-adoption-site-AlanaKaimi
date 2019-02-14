@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
         
         <link rel="stylesheet" type="text/css" href="adopt.css">
-        
+    </style>
         <title>Happy Valley</title>
     </head>
     <body>
@@ -16,26 +17,27 @@
         </nav>
         <main>
 <!-- Page info -->
-            <section class= info>
+            <section class= "info">
                 <h2>Adopt a Dog</h2>
                 <p>If you are interested in adopting one of our animals, please fill out our <a href="" target="blank">online adoption form.</a>
                 </p>
             </section>
 <!-- Filter Box -->
-            <section class= filter-box>
-                <div>
-                    <strong>Show me dogs that are:</strong><br>
-                </div>
+            <section class= "filter-box">
+                
+                <strong>Show me dogs that are:</strong><br>
+                
+                <div class= flex >
 <!-- Gender -->
-                <div class= filter-opt>
-                    <strong>Gender</strong><br>
-                    <input type="radio" name="gender" value="male">Male<br>
-                    <input type="radio" name="gender" value="female">Female<br>
-                    <input type="radio" name="gender" value="self">Self-defined<br>
-                    <input type="radio" name="gender" value="all">All<br>
-                </div>
+                    <div class= "filter-opt">
+                        <strong>Gender</strong><br>
+                        <input type="radio" name="gender" value="male">Male<br>
+                        <input type="radio" name="gender" value="female">Female<br>
+                        <input type="radio" name="gender" value="self">Self-defined<br>
+                        <input type="radio" name="gender" value="all">All<br>
+                    </div>
  <!-- Age -->  
-                <div class= filter-opt>
+                <div class= "filter-opt">
                     <strong>Age</strong><br>
                     <input type="radio" name="age" value="puppy">Puppy<br>
                     <input type="radio" name="age" value="young">Young<br>
@@ -44,7 +46,7 @@
                     <input type="radio" name="age" value="all">All<br>
                 </div>
 <!-- Size -->
-                <div class= filter-opt>
+                <div class= "filter-opt">
                     <strong>Size</strong><br>
                     <input type="checkbox" name="size" value="tiny">Tiny<br>
                     <input type="checkbox" name="size" value="small">Small<br>
@@ -52,7 +54,7 @@
                     <input type="checkbox" name="size" value="Large">Large<br>
                 </div>
 <!-- Personality Traits -->
-                <div class= filter-opt>
+                <div class="filter-opt">
                     <strong>Personality Traits</strong><br>
                     <input type="checkbox" name="personality" value="easy">Easygoing<br>
                     <input type="checkbox" name="personality" value="energetic">Energetic<br>
@@ -60,44 +62,130 @@
                     <input type="checkbox" name="personality" value="gw-dogs">Good with other dogs<br>
                     <input type="checkbox" name="personality" value="gw-cats">Good with cats<br>
                 </div>
+            </div>
             </section>
 <!-- Filter results -->
-            <section>
-                <img src="starter_files/images/beans.jpg" class="dog-thumb" alt=""><br>
-                <strong>Beans</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+            <section class= "flex">
+                <div class= "dog">
+                    <img src="starter_files/images/beans.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Beans</strong><br>
+                    <ul>
+                        <li class="dog-tag">Adult</li>
+                        <li class="dog-tag">Male</li>
+                        <li class="dog-tag">Medium</li>
+                        <li class="dog-tag">Easygoing</li>
+                        <li class="dog-tag">Good with cats</li>
+                    </ul>
+                </div>
 
-                <img src="starter_files/images/boston-terrier.jpg" class="dog-thumb" alt=""><br>
-                <strong>Zelda</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class= dog>
+                    <img src="starter_files/images/boston-terrier.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Zelda</strong><br>
+                    <ul>
+                        <li class="dog-tag">Senior</li>
+                        <li class="dog-tag">Female</li>
+                        <li class="dog-tag">Small</li>
+                        <li class="dog-tag">Easygoing</li>
+                        <li class="dog-tag">Good with kids</li><br>
+                        <li class="dog-tag">Good with other dogs</li>
+                    </ul>
+                </div>
 
-                <img src="starter_files/images/boxer.jpg" class="dog-thumb" alt=""><br>
-                <strong>Baby</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class= "dog">
+                    <img src="starter_files/images/boxer.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Baby</strong><br>
+                    <ul>
+                        <li class="dog-tag">Young</li>
+                        <li class="dog-tag">Female</li>
+                        <li class="dog-tag">Large</li>
+                        <li class="dog-tag">Energetic</li>
+                        <li class="dog-tag">Good with kids</li><br>
+                        <li class="dog-tag">Good with other dogs</li>
+                    </ul>
+                
+            </div>
+                
 
-                <img src="starter_files/images/golden-lab.jpg" class="dog-thumb" alt=""><br>
-                <strong>Tom-Tom</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class= dog>
+                    <img src="starter_files/images/golden-lab.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Tom-Tom</strong><br>
+                    <ul>
+                        <li class="dog-tag">Young</li>
+                        <li class="dog-tag">Male</li>
+                        <li class="dog-tag">Large</li>
+                        <li class="dog-tag">Energetic</li>
+                        <li class="dog-tag">Good with kids</li>
+                        <li class="dog-tag">Good with other dogs</li>
+                        <li class="dog-tag">Good with cats</li>
+                    </ul>
+                </div>
 
-                <img src="starter_files/images/little-dog.jpg" class="dog-thumb" alt=""><br>
-                <strong>Marco</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class="dog">
+                    <img src="starter_files/images/little-dog.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Marco</strong><br>
+                    <ul>
+                        <li class="dog-tag">Adult</li>
+                        <li class="dog-tag">Male</li>
+                        <li class="dog-tag">Small</li>
+                        <li class="dog-tag">Energetic</li>      
+                    </ul>
+                </div>  
 
-                <img src="starter_files/images/old-shaggy.jpg" class="dog-thumb" alt=""><br>
-                <strong>Shackleton</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class= dog>
+                    <img src="starter_files/images/old-shaggy.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Shackleton</strong><br>
+                    <ul>
+                        <li class="dog-tag">Adult</li>
+                        <li class="dog-tag">Male</li>
+                        <li class="dog-tag">Medium</li>
+                        <li class="dog-tag">Easygoing</li>
+                        <li class="dog-tag">Energetic</li><br>
+                        <li class="dog-tag">Good with kids</li>
+                        <li class="dog-tag">Good with other dogs</li>
+                        <li class="dog-tag">Good with cats</li>
+                    </ul>
+                </div>
 
-                <img src="starter_files/images/shih-tzu.jpg" class="dog-thumb" alt=""><br>
-                <strong>Midge</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class="dog">
+                    <img src="starter_files/images/shih-tzu.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Midge</strong><br>
+                    <ul>
+                        <li class="dog-tag">Adult</li>
+                        <li class="dog-tag">Female</li>
+                        <li class="dog-tag">Small</li>
+                        <li class="dog-tag">Easygoing</li>
+                        <li class="dog-tag">Good with kids</li>
+                    </ul>
+                </div>
 
-                <img src="starter_files/images/young-bulldog.jpg" class="dog-thumb" alt=""><br>
-                <strong>Ladybird</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class="dog">
+                    <img src="starter_files/images/young-bulldog.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Ladybird</strong><br>
+                    <ul>
+                        <li class="dog-tag">Young</li>
+                        <li class="dog-tag">Female</li>
+                        <li class="dog-tag">Large</li>
+                        <li class="dog-tag">Easygoing</li>
+                        <li class="dog-tag">Energetic</li><br>
+                        <li class="dog-tag">Good with kids</li>
+                        <li class="dog-tag">Good with other dogs</li>
+                        <li class="dog-tag">Good with cats</li>
+                    </ul>
+                </div>
 
-                <img src="starter_files/images/young-peppy.jpg" class="dog-thumb" alt=""><br>
-                <strong>Mina</strong><br>
-                <p>not sure how to get filter buttons here :p</p>
+                <div class="dog">
+                    <img src="starter_files/images/young-peppy.jpg" class="dog-thumb" alt=""><br>
+                    <strong>Mina</strong><br>
+                    <ul>
+                        <li class="dog-tag">Puppy</li>
+                        <li class="dog-tag">Female</li>
+                        <li class="dog-tag">Medium</li>
+                        <li class="dog-tag">Energetic</li><br>
+                        <li class="dog-tag">Good with kids</li>
+                        <li class="dog-tag">Good with other dogs</li>
+                        <li class="dog-tag">Good with cats</li>
+                    </ul>
+                </div>
             
             </section>
 
