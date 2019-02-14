@@ -3,13 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Open Sans';
     max-width: 1170px;
     margin: 0 auto;
 }
-
 header {
     background-color: #033a78;
     color: #ffffff;
@@ -17,8 +15,6 @@ header {
     padding: 20px;
     border-radius: 10px;
 }
-
-
 .info {
     margin: 2px;
     padding: 20px;
@@ -29,13 +25,11 @@ header {
     padding: 20px;
     border-radius: 10px;
 }
-
 .flex {
     display: flex;
     flex-wrap: wrap;
 }
-.filter-opt {
-    
+.filter-opt {   
     padding: 5px;
     width: 25%;
     display: block;
@@ -46,11 +40,9 @@ header {
     max-width: 375px;
     font-family: 'Oswald';
 }
-
 .dog-thumb {
     width: 375px;  
 }
-
 .dog-tag {
     background-color: #8dddf1;
     padding: 2px;
@@ -62,7 +54,6 @@ header {
     flex-wrap: flex;
     line-height: 2rem;
 }
-
 .footer {
     display: flex;
 }
@@ -76,7 +67,6 @@ header {
     line-height: 200px;
     color: white;
 }
-
 .donate {
     background: 
     linear-gradient(rgba(121, 24, 186, 0.45), rgba(121, 24, 186, 0.45)),
